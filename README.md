@@ -8,20 +8,20 @@ I have customized this js and added more function, so that you can easily used t
 To change color of list element based on search content. I have added colour attribute for this. 
 
 # Example
-$('#typeahead').typeahead({
+    $('#typeahead').typeahead({
 
-    colour: "colourCondition"
+        colour: "colourCondition"
 
-});
+    });
 
 Here coloutCondition is javascript function
 
-function colourCondition(item, i) {
+      function colourCondition(item, i) {
 
-      if (item.type == 3) {
+           if (item.type == 3) {
 
-           i.addClass("color-brown");
+                i.addClass("color-brown");
     
-      }
+           }
    
-}
+      }
