@@ -9,13 +9,19 @@ To change color of list element based on search content. I have added colour att
 
 # Example
 $('#typeahead').typeahead({
-            colour: "colourCondition"
+
+    colour: "colourCondition"
+
 });
 
 Here coloutCondition is javascript function
 
 function colourCondition(item, i) {
-    if (item.type == 3) {
-        i.addClass("color-brown");
-    }
+
+      if (item.type == 3) {
+
+           i.addClass("color-brown");
+    
+      }
+   
 }
